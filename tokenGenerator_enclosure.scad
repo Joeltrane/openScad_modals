@@ -27,7 +27,7 @@ difference () {
 ////////////
 
 			  translate ([34.2,-1,19.2]) {
-			      import ("/home/jug/micro_usb.stl", color=Lime);
+			      import ("/home/user/micro_usb.stl", color=Lime);
 			  }
 
 
@@ -48,7 +48,7 @@ difference () {
 ////////////
 
             translate ([34.2,-19,19.2]) {
-			      import ("/home/jug/micro_usb.stl", color=Lime);
+			      import ("/home/user/micro_usb.stl", color=Lime);
 			  }
 
 /////////////
