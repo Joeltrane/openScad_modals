@@ -6,7 +6,7 @@
 $fn=200;
 
 difference () {
-    translate ([-18,-20,0]) {
+    translate ([-18,-20,-22]) {
 	     color("green") cube([80,60,3]);
     }
 
@@ -14,11 +14,11 @@ difference () {
 /// Top Switch and LED hole.
 ////////////
 
-            translate ([30,17,-2]) {  
+            translate ([30,17,-23]) {  
                color("pink") cylinder (h=6,r=2.5);      
             }
 
-            translate ([40,15,-1]) {  
+            translate ([40,15,-23]) {  
                 cube([10,4,5]);
             }
 
@@ -35,11 +35,11 @@ difference () {
 /// Bottom Switch and LED hole.
 ////////////
 
-            translate ([30,-3,-2]) {  
+            translate ([30,-3,-23]) {  
                color("aqua") cylinder (h=6,r=2.5);        
             }        
 
-            translate ([40,-5,-1]) {  
+            translate ([40,-5,-23]) {  
                color("purple") cube([10,4,5]);
             }
 
@@ -55,7 +55,7 @@ difference () {
 /// Token Generator button hole.
 ////////////
 
-            translate ([5,0,-2]) {  
+            translate ([5,0,-23]) {  
                 color("green") cylinder (h=6,r=3);        
             }    
 
@@ -75,3 +75,18 @@ translate ([-15.5,-17.5,4]) {
     
          
 } 
+
+
+
+difference () {
+
+translate ([-15.5,-17,-20]) {
+	     color("chartreuse") cube([75,55,10]);
+    }     
+
+
+translate ([-13,-14.5,-21]) {
+	     color("red") cube([70,50,12]);
+    }     
+
+}
